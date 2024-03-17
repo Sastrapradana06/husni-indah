@@ -12,7 +12,7 @@ export default function AboutUsView() {
     <div className="w-full h-max flex flex-col items-center gap-2" id="about">
       <div className="text-center">
         <img src="/bunga2.png" className='w-[200px] h-[80px] object-cover' alt="" />
-        <p className='mt-4 uppercase tracking-[2px]'>about us</p>
+        <p className='mt-4 uppercase tracking-[2px] font-bold'>about us</p>
       </div>
       <div className="w-full h-max text-center   bg-violet-200 p-2 rounded-md " data-aos="zoom-in" data-aos-duration="1000">
         <p className='text-[.8rem] text-zinc-800 tracking-[1px] font-semibold'>Selamat datang di web pernikahan Delfano dan Namira! Temukan semua yang perlu Anda ketahui tentang pernikahan kami, dari jadwal acara hingga informasi lokasi.</p>

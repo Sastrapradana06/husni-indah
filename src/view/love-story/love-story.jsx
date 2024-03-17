@@ -39,7 +39,7 @@ export default function LoveStoryView() {
     <div className="w-full h-max flex flex-col items-center gap-2 mt-2" id="story">
       <div className="text-center flex flex-col items-center">
         <img src="https://alis.vamtam.com/wp-content/uploads/2017/11/Rose-logo.svg" width={90} height={72} alt="" />
-        <p className='mt-4 uppercase tracking-[2px]'>love story</p>
+        <p className='mt-4 uppercase tracking-[2px] font-bold'>love story</p>
       </div>
       <div className="w-full h-max flex flex-col items-center ">
         <Blockquote color="violet" cite="– 2019" icon={<Icon1 />} mt="xl" data-aos="fade-up">

@@ -11,7 +11,7 @@ export default function EventsView() {
       <div className="text-center flex flex-col justify-center items-center w-full h-max">
         <img src="https://alis.vamtam.com/wp-content/uploads/2017/11/rings.svg" width={90} height={72} alt="" />
         <img src="/bismillah.png" className='w-[300px] h-[80px] object-cover' alt="" data-aos="zoom-in" />
-        <p className=' uppercase tracking-[2px]' data-aos="fade-down" data-aos-duration="800">save the date</p>
+        <p className=' uppercase tracking-[2px] font-bold' data-aos="fade-down" data-aos-duration="800">save the date</p>
       </div>
       <p className="sacramento font-medium text-[1.8rem]" data-aos="fade-down" data-aos-duration="1000">04 . Maret . 2023</p>
       <div className="w-full h-max text-center relative" data-aos="flip-left" data-aos-duration="1200">

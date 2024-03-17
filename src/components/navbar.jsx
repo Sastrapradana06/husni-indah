@@ -51,7 +51,7 @@ export default function NavbarComponent() {
       <div className="w-[95%] h-full  flex justify-between items-center">
         <div className="flex flex-col">
           <p className="dancing text-[1.8rem]">Delfano & Namira</p>
-          <p className="capitalize text-[.8rem] text-zinc-400 tracking-[2px] -mt-2">are just getting married</p>
+          <p className="capitalize text-[.8rem] text-zinc-400 tracking-[2px] -mt-2 font-semibold">are just getting married</p>
         </div>
         <div className="">
           <Burger opened={opene} onClick={showDrawer} aria-label="Toggle navigation" />
@@ -62,7 +62,7 @@ export default function NavbarComponent() {
           {listLink.map((item, i) => {
             return (
               <a href={item.link} key={i}>
-                <button className='uppercase tracking-[2px] font-medium hover:text-violet-500 duration-200' >{item.nama}</button>
+                <button className='uppercase tracking-[2px] font-semibold hover:text-violet-500 duration-200' >{item.nama}</button>
               </a>
             )
           })}

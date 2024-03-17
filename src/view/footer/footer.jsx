@@ -71,7 +71,7 @@ export default function FooterView() {
     <div className="w-full h-max flex flex-col items-center gap-4 mt-4 mb-4" id="footer">
       <div className="text-center flex flex-col justify-center items-center w-full h-max">
         <img src="/bunga2.png" className='w-[200px] h-[80px] object-cover' alt="" />
-        <p className=' uppercase tracking-[2px] mt-2 font-medium'>thanks for everything</p>
+        <p className=' uppercase tracking-[2px] mt-2 font-bold'>thanks for everything</p>
       </div>
       <div className="w-full h-max bg-[#F6F3FE] flex flex-col gap-2 p-4">
         <form onSubmit={handleSubmit} className=''>
@@ -107,7 +107,7 @@ export default function FooterView() {
                 return (
                   <div className="w-max min-h-[50px] backdrop-blur-xl max-h-max justify-center p-2 rounded-md border flex flex-col bg-[#e4e3e348] text-black ml-4" key={i}>
                     <p className="text-teal-600 text-[1rem] capitalize font-semibold">{item.nama}</p>
-                    <p className="text-[.7rem]">{item.komentar}</p>
+                    <p className="text-[.7rem] font-semibold">{item.komentar}</p>
                   </div>
                 )
               })}

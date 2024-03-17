@@ -25,7 +25,7 @@ export default function GalleryView() {
     <div className="w-full h-max flex flex-col items-center gap-4 mt-4" id="gallery">
       <div className="text-center flex flex-col justify-center items-center w-full h-max">
         <img src="https://alis.vamtam.com/wp-content/uploads/2017/11/Rose-logo-2.svg" width={90} height={72} alt="" />
-        <p className=' uppercase tracking-[2px]'>gallery photos</p>
+        <p className=' uppercase tracking-[2px] font-bold'>gallery photos</p>
       </div>
       <div className="w-full h-max border border-zinc-300 py-4 px-2 relative flex items-center flex-wrap justify-between shadow-lg shadow-gray-600" data-aos="zoom-in" data-aos-duration="1000">
         <img src="/poto3.jfif" alt="" className="w-[50%] h-[200px] object-cover filter cursor-pointer" onClick={() => showModalFoto('/poto3.jfif')} />
