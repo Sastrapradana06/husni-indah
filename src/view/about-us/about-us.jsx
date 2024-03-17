@@ -15,7 +15,7 @@ export default function AboutUsView() {
         <p className='mt-4 uppercase tracking-[2px]'>about us</p>
       </div>
       <div className="w-full h-max text-center   bg-violet-200 p-2 rounded-md " data-aos="zoom-in" data-aos-duration="1000">
-        <p className='text-[.8rem] text-zinc-800 tracking-[1px]'>Selamat datang di web pernikahan Delfano dan Namira! Temukan semua yang perlu Anda ketahui tentang pernikahan kami, dari jadwal acara hingga informasi lokasi.</p>
+        <p className='text-[.8rem] text-zinc-800 tracking-[1px] font-semibold'>Selamat datang di web pernikahan Delfano dan Namira! Temukan semua yang perlu Anda ketahui tentang pernikahan kami, dari jadwal acara hingga informasi lokasi.</p>
       </div>
       <div className="w-full h-max " >
         <img src="/tangkai1.png" alt="" className='w-[150px] h-[50px] object-cover m-auto' />
