@@ -13,7 +13,7 @@ export default function EventsView() {
         <img src="/bismillah.png" className='w-[300px] h-[80px] object-cover' alt="" data-aos="zoom-in" />
         <p className=' uppercase tracking-[2px] font-bold' data-aos="fade-down" data-aos-duration="800">save the date</p>
       </div>
-      <p className="sacramento font-medium text-[1.8rem]" data-aos="fade-down" data-aos-duration="1000">04 . Maret . 2023</p>
+      <p className="sacramento font-medium text-[1.8rem]" data-aos="fade-down" data-aos-duration="1000">21 . April . 2024</p>
       <div className="w-full h-max text-center relative" data-aos="flip-left" data-aos-duration="1200">
         <img src="/bgname.png" alt="" className=" w-full h-[250px] object-cover" />
         <div className="w-full h-[180px] absolute top-[30px] flex justify-center items-center flex-col">
