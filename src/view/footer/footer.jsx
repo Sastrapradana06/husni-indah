@@ -105,7 +105,7 @@ export default function FooterView() {
             <Marquee pauseOnHover gradient={false} speed={100}>
               {listKomentar.map((item, i) => {
                 return (
-                  <div className="w-max min-h-[50px] max-h-max justify-center p-2 rounded-md border flex flex-col bg-[#e4e3e3] text-black ml-4" key={i}>
+                  <div className="w-max min-h-[50px] backdrop-blur-xl max-h-max justify-center p-2 rounded-md border flex flex-col bg-[#e4e3e348] text-black ml-4" key={i}>
                     <p className="text-teal-600 text-[1rem] capitalize font-semibold">{item.nama}</p>
                     <p className="text-[.7rem]">{item.komentar}</p>
                   </div>
