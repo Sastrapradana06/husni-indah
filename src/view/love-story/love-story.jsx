@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 export default function LoveStoryView() {
 
   AOS.init({
-
+    once: true,
   })
 
   const Icon1 = () => {

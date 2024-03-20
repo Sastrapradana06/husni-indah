@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 export default function AboutUsView() {
   AOS.init({
-
+    once: true,
   })
 
   return (
@@ -28,10 +28,10 @@ export default function AboutUsView() {
         <div className="w-full h-max text-center flex flex-col items-center gap-4 " data-aos="zoom-in" data-aos-duration="1000">
           <p className='text-[.8rem] text-slate-500'>Delfano Charies adalah seorang YouTuber dengan 569 ribu subscriber, konten kekinian, dan dekripsi karakter yang santai. Dia juga seorang mualaf.</p>
           <div className="w-full h-max flex justify-center gap-4">
-            <a href="https://www.instagram.com/delfanocharies/">
+            <a href="https://www.instagram.com/delfanocharies/" aria-label="link to instagram">
               <AiFillInstagram size={25} className="text-violet-500 hover:text-gray-400 duration-200" />
             </a>
-            <a href="https://www.youtube.com/results?search_query=delfano+charies">
+            <a href="https://www.youtube.com/results?search_query=delfano+charies" aria-label="link to youtube">
               <IoLogoYoutube size={25} className="text-violet-500 hover:text-gray-400 duration-200" />
             </a>
           </div>
@@ -46,10 +46,10 @@ export default function AboutUsView() {
         <div className="w-full h-max text-center flex flex-col items-center gap-4" data-aos="zoom-in" data-aos-duration="1000">
           <p className='text-[.8rem] text-slate-500'>Namira Mamora, selebgram populer di Instagram dengan 300 ribu pengikut, membagikan gaya hidup, kecantikan, dan inspirasi fashion.</p>
           <div className="w-full h-max flex justify-center gap-4">
-            <a href="https://www.instagram.com/namiramamora/">
+            <a href="https://www.instagram.com/namiramamora/" aria-label="link to instagram">
               <AiFillInstagram size={25} className="text-violet-500 hover:text-gray-400 duration-200" />
             </a>
-            <a href="https://www.youtube.com/results?search_query=delfano+charies">
+            <a href="https://www.youtube.com/results?search_query=delfano+charies" aria-label="link to youtube">
               <IoLogoYoutube size={25} className="text-violet-500 hover:text-gray-400 duration-200" />
             </a>
           </div>

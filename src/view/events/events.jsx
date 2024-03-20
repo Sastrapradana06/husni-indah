@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 
 export default function EventsView() {
   AOS.init({
-
+    once: true,
   })
 
   return (

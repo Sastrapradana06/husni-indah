@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Arvo:ital,wght@1,400;1,700&family=Comfortaa&family=Dancing+Script:wght@400..700&family=DynaPuff&family=Inconsolata&family=Josefin+Sans:wght@300&family=Martian+Mono:wght@600&family=Merriweather:wght@400;700&family=Montserrat&family=Mukta&family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+NKo&family=Oswald&family=Poppins:wght@400;500&family=Righteous&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Sacramento&family=Satisfy&family=Signika+Negative:wght@300;400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500&family=Sacramento&family=Satisfy');
 
 
 
@@ -7,8 +7,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
-
 
 /* latin */
 .dancing {
@@ -26,10 +24,3 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-
-/* #home {
-  background-image: url(../public/bg-white-1.jfif);
-  object-fit: cover;
-  background-position: center;
-} */

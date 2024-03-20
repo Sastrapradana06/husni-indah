@@ -8,7 +8,7 @@ export default function GalleryView() {
   const [urlFoto, setUrlFoto] = useState(null)
 
   AOS.init({
-
+    once: true,
   })
 
   const showModalFoto = (url) => {

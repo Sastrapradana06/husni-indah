@@ -1,4 +1,3 @@
-import './home.css'
 
 import NavbarComponent from "../../components/navbar";
 import { Carousel } from '@mantine/carousel';
@@ -19,7 +18,7 @@ export default function HomePage() {
   const autoplay = useRef(Autoplay({ delay: 5000 }));
 
   AOS.init({
-
+    once: true,
   })
 
   return (

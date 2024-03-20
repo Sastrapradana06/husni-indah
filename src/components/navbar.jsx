@@ -42,10 +42,6 @@ export default function NavbarComponent() {
     close()
   }
 
-
-
-
-
   return (
     <div className="w-full h-[100px] flex justify-center items-center border-b  fixed top-0 z-30 bg-white">
       <div className="w-[95%] h-full  flex justify-between items-center">
