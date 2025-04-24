@@ -1,16 +1,13 @@
 import { MdMusicNote, MdMusicOff } from "react-icons/md";
-import { useState, useRef } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
+import { useState, useRef } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function MusicPlayer() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef(null);
 
-  AOS.init({
-
-  })
+  AOS.init({});
 
   const togglePlayPause = () => {
     if (audioRef.current) {
@@ -24,8 +21,11 @@ export default function MusicPlayer() {
   };
 
   return (
-    <div className="w-[20%] h-[40px] bg-[#0808082f] fixed z-30 top-[350px] left-0 rounded-3xl flex justify-center items-center cursor-pointer" data-aos="fade-right">
-      <audio ref={audioRef} src="/musicBIW.mp3" />
+    <div
+      className="w-[20%] h-[40px] bg-[#0808082f] fixed z-30 top-[350px] left-0 rounded-3xl flex justify-center items-center cursor-pointer"
+      data-aos="fade-right"
+    >
+      <audio ref={audioRef} src="/musicBIW.mp3" autoPlay={isPlaying} />
       <div>
         {isPlaying ? (
           <MdMusicNote onClick={togglePlayPause} size={20} fill="teal" />
@@ -34,5 +34,5 @@ export default function MusicPlayer() {
         )}
       </div>
     </div>
-  )
+  );
 }
