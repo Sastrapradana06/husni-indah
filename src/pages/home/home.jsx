@@ -11,6 +11,7 @@ import FooterView from "../../view/footer/footer";
 import MusicPlayer from "../../components/music-player";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import GiftView from "../../view/gift/gift";
 
 export default function HomePage() {
   const [isModal, setIsModal] = useState(false);
@@ -83,6 +84,7 @@ export default function HomePage() {
         <EventsView />
         <GalleryView />
         <FooterView />
+        <GiftView />
       </div>
 
       {isModal && (

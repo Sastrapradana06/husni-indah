@@ -71,7 +71,10 @@ export default function NavbarComponent() {
           {listLink.map((item, i) => {
             return (
               <a href={item.link} key={i}>
-                <button className="uppercase tracking-[2px] font-semibold hover:text-violet-500 duration-200">
+                <button
+                  className="uppercase tracking-[2px] font-semibold hover:text-violet-500 duration-200"
+                  onClick={hiddenDrawer}
+                >
                   {item.nama}
                 </button>
               </a>

@@ -1,7 +1,6 @@
 import { Input, Textarea, Button } from "@mantine/core";
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
-import { IoLocation } from "react-icons/io5";
 
 export default function FooterView() {
   const [listKomentar, setListKomentar] = useState([
@@ -139,25 +138,6 @@ export default function FooterView() {
             </Marquee>
           ) : null}
         </div>
-      </div>
-      <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-4 mb-4">
-        <a href="https://maps.app.goo.gl/Z5wfCeA7qsYhmC6E9" target="_blank">
-          <button className="px-4 py-2 flex justify-center items-center gap-3 bg-gray-900 rounded-md hover:shadow-lg hover:bg-gray-800">
-            <IoLocation className="text-green-500" size={20} />
-            <p className="text-white">Temukan Lokasi</p>
-          </button>
-        </a>
-        {/* <a href="https://maps.app.goo.gl/oWLMyzLHVaCcq3g86" target="_blank">
-          <Button
-            size="md"
-            variant="light"
-            color="green"
-            className="flex gap-4"
-          >
-            <IoLocation />
-            Temukan Lokasi{" "}
-          </Button>
-        </a> */}
       </div>
     </div>
   );
