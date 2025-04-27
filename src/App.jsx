@@ -17,7 +17,7 @@ function App() {
       />
       <div className="w-[80%] h-[300px] mt-[100px]  absolute text-black flex justify-center items-center flex-col gap-2 ">
         <p className="dancing text-[2.2rem] font-medium capitalize">
-          Drs. Amidun Akbar
+          Amidun Akbar
         </p>
         <p className="dancing text-[2.2rem] font-medium">&</p>
         <p className="dancing text-[2.2rem] font-medium capitalize">
