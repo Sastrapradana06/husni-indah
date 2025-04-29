@@ -47,7 +47,7 @@ export default function HomePage() {
           data-aos-duration="800"
         >
           <Carousel
-            withIndicators
+            loop
             height={220}
             plugins={[autoplay.current]}
             onMouseEnter={autoplay.current.stop}

@@ -1,39 +1,36 @@
 import { useNavigate } from "react-router-dom";
 import "./App.css";
-import { Button } from "@mantine/core";
+
+import { BsEnvelopeOpenHeart } from "react-icons/bs";
 
 function App() {
   const navigate = useNavigate();
 
   return (
-    <div
-      className="w-full min-h-[100vh] max-h-max  text-black flex justify-center items-center relative"
-      id="home"
-    >
-      <img
-        src="/bg-white-2.jfif"
-        alt="bg"
-        className="w-full h-[100vh] object-cover"
-      />
-      <div className="w-[80%] h-[300px] mt-[100px]  absolute text-black flex justify-center items-center flex-col gap-2 ">
-        <p className="dancing text-[2.2rem] font-medium capitalize">
-          Amidun Akbar
-        </p>
-        <p className="dancing text-[2.2rem] font-medium">&</p>
-        <p className="dancing text-[2.2rem] font-medium capitalize">
-          Sindi Septria S.M
-        </p>
-        <Button
-          variant="gradient"
-          gradient={{ from: "pink", to: "cyan", deg: 90 }}
-          onClick={() => navigate("/home")}
-          className="mt-5"
-        >
-          <p className="poppins">Buka Undangan</p>
-        </Button>
-      </div>
-      <div className="absolute bottom-0 w-full h-[10px]  flex justify-center items-center">
-        <span className="w-[60%] h-full bg-white"></span>
+    <div className="w-full min-h-[100vh] max-h-max img poppins">
+      <div className="absolute top-0 left-0 w-full h-full z-50 bg-black/50 flex flex-col justify-center items-center">
+        <div className="w-full h-[450px] flex flex-col justify-between items-center">
+          <div>
+            <h1 className="text-center text-white playfair text-[1rem]">
+              The Wedding Of
+            </h1>
+            <p className="text-center text-white dancing text-[2.5rem] mt-2">
+              Midun & Sindi
+            </p>
+          </div>
+          <div>
+            <h1 className="text-center text-white text-[.8rem]">
+              Kpd Bpk/Ibu/Saudara/I
+            </h1>
+            <button
+              className="w-[180px] h-max py-2.5 bg-white text-black  mt-4 rounded-2xl flex items-start justify-center gap-2 hover:bg-black hover:text-white transition-all duration-300"
+              onClick={() => navigate("/home")}
+            >
+              <BsEnvelopeOpenHeart size={17} />
+              <p className="text-[.8rem]">Buka Undangan</p>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
