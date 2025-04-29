@@ -62,7 +62,7 @@ export default function EventsView() {
           <p className="sacramento font-medium text-[2rem]">Sindi</p>
         </div>
       </div>
-      <div className="w-full h-max flex flex-col justify-center items-center">
+      {/* <div className="w-full h-max flex flex-col justify-center items-center">
         <div className="text-center">
           <p className="uppercase tracking-[2px]">Turut Mengundang</p>
         </div>
@@ -71,7 +71,7 @@ export default function EventsView() {
           <p>&</p>
           <p className="satisfy text-[1.2rem]">Partner</p>
         </div>
-      </div>
+      </div> */}
       <div className="w-full h-max mt-3 flex flex-col gap-4">
         <div className="w-full ">
           <h1 className="playfair text-[1.3rem]">AKAD NIKAH</h1>
