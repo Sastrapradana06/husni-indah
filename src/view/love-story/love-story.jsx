@@ -63,7 +63,7 @@ export default function LoveStoryView() {
         </Blockquote>
         <Blockquote
           color="violet"
-          cite="– 2024"
+          cite="– 2023"
           icon={<Icon2 />}
           mt="xl"
           data-aos="fade-up"

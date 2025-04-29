@@ -66,8 +66,7 @@ export default function AboutUsView() {
             <span className="text-slate-600">Amidun Akbar</span> adalah seorang
             pengusaha muda visioner yang menekuni bidang kerajinan tangan,
             Selain itu, ia juga aktif mengembangkan usahanya di sektor alat
-            berat. perusahaannya kini telah memberdayakan lebih dari 300
-            karyawan.
+            berat. perusahaannya kini telah memberdayakan -+ 25 karyawan.
           </p>
           <div className="w-full h-max flex justify-center gap-4">
             <a

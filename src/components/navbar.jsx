@@ -43,7 +43,7 @@ export default function NavbarComponent() {
   };
 
   return (
-    <div className="w-full h-[100px] flex justify-center items-center border-b  fixed top-0 z-30 bg-white">
+    <div className="w-full lg:w-[40%] h-[100px] flex justify-center items-center border-b  fixed top-0 z-30 bg-white">
       <div className="w-[95%] h-full  flex justify-between items-center">
         <div className="flex flex-col">
           <p className="dancing text-[1.8rem]">Midun & Sindi</p>

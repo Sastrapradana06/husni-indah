@@ -1,9 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500&family=Sacramento&family=Satisfy");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500&family=Sacramento&family=Satisfy&family=Playfair+Display:wght@400;500;600;700");
 
 body {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+
+.coklat {
+  color: #bd723d;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .poppins {

@@ -35,7 +35,7 @@ export default function HomePage() {
 
   return (
     <div
-      className="w-full h-max flex justify-center items-center poppins"
+      className="w-full lg:w-[30%] lg:m-auto h-max flex justify-center items-center poppins"
       id="home"
     >
       <NavbarComponent />
