@@ -25,7 +25,11 @@ export default function EventsView() {
           alt=""
           data-aos="zoom-in"
         />
-        <p className="text-gray-500 text-[.8rem] mb-4">
+        <p
+          className="text-gray-500 text-[.8rem] mb-4"
+          data-aos="zoom-in"
+          data-aos-duration="800"
+        >
           Atas Rahmat Tuhan Yang Maha Esa, kami bermaksud mengundang Anda di
           acara Kami. Merupakan suatu kehormatan dan kebahagiaan bagi kami
           sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan
@@ -73,12 +77,12 @@ export default function EventsView() {
         </div>
       </div> */}
       <div className="w-full h-max mt-3 flex flex-col gap-4">
-        <div className="w-full ">
+        <div className="w-full " data-aos="fade-right">
           <h1 className="playfair text-[1.3rem]">AKAD NIKAH</h1>
           <p className="text-[.8rem] coklat">Jum`at, 2 Mei 2025 pukul 10.00</p>
           <p className="text-[.7rem] coklat">Rumah Sindi</p>
         </div>
-        <div className="w-full ">
+        <div className="w-full " data-aos="fade-right">
           <h1 className="playfair text-[1.3rem] uppercase">
             Resepsi Pernikahan
           </h1>
@@ -87,7 +91,11 @@ export default function EventsView() {
         </div>
         <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-2 mb-4">
           <a href="https://maps.app.goo.gl/Z5wfCeA7qsYhmC6E9" target="_blank">
-            <button className="px-4 py-2 flex justify-center items-center gap-3 bg-gray-900 rounded-md hover:shadow-lg hover:bg-gray-800">
+            <button
+              className="px-4 py-2 flex justify-center items-center gap-3 bg-gray-900 rounded-md hover:shadow-lg hover:bg-gray-800"
+              data-aos="flip-left"
+              data-aos-duration="1200"
+            >
               <IoLocation className="text-green-500" size={20} />
               <p className="text-white">Temukan Lokasi</p>
             </button>

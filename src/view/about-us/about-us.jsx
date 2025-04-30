@@ -19,7 +19,7 @@ export default function AboutUsView() {
           className="w-[200px] h-[80px] object-cover"
           alt=""
         />
-        <p className="mt-4 uppercase tracking-[2px] font-bold">about us</p>
+        <p className="mt-4 uppercase tracking-[2px] font-bold ">about us</p>
       </div>
       <div
         className="w-full h-max text-center   bg-violet-200 p-2 rounded-md "
@@ -63,10 +63,11 @@ export default function AboutUsView() {
           data-aos-duration="1000"
         >
           <p className="text-[.8rem] text-slate-500">
-            <span className="text-slate-600">Amidun Akbar</span> adalah seorang
-            pengusaha muda visioner yang menekuni bidang kerajinan tangan,
-            Selain itu, ia juga aktif mengembangkan usahanya di sektor alat
-            berat. perusahaannya kini telah memberdayakan -+ 25 karyawan.
+            <span className=" text-[.9rem] playfair coklat">Amidun Akbar</span>{" "}
+            adalah seorang pengusaha muda visioner yang menekuni bidang
+            kerajinan tangan, Selain itu, ia juga aktif mengembangkan usahanya
+            di sektor alat berat. perusahaannya kini telah memberdayakan -+ 25
+            karyawan.
           </p>
           <div className="w-full h-max flex justify-center gap-4">
             <a
@@ -115,9 +116,9 @@ export default function AboutUsView() {
           data-aos-duration="1000"
         >
           <p className="text-[.8rem] text-slate-500">
-            <span className="text-slate-600">Sindi Septria</span> adalah seorang
-            wanita cerdas dan anggun, lulusan Sarjana Manajemen, Tak hanya
-            berprestasi secara akademik, ia juga turut mendampingi dan
+            <span className=" text-[.9rem] coklat playfair">Sindi Septria</span>{" "}
+            adalah seorang wanita cerdas dan anggun, lulusan Sarjana Manajemen,
+            Tak hanya berprestasi secara akademik, ia juga turut mendampingi dan
             berkontribusi dalam pengembangan usaha calon suaminya,
           </p>
           <div className="w-full h-max flex justify-center gap-4">

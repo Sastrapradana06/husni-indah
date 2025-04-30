@@ -27,8 +27,8 @@ export default function NavbarComponent() {
       link: "#gallery",
     },
     {
-      nama: "footer",
-      link: "#footer",
+      nama: "Gift",
+      link: "#gift",
     },
   ];
 

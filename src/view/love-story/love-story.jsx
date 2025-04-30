@@ -1,7 +1,7 @@
 import { Blockquote } from "@mantine/core";
 import { IoMdHeart } from "react-icons/io";
 import { FaHandHoldingHeart } from "react-icons/fa";
-import { BsFillArrowThroughHeartFill } from "react-icons/bs";
+import { GiGlobeRing } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,7 +21,7 @@ export default function LoveStoryView() {
   const Icon2 = () => {
     return (
       <div className="border rounded-full p-2 border-violet-600">
-        <BsFillArrowThroughHeartFill size={15} className="text-red-400" />
+        <GiGlobeRing size={15} className="text-red-400" />
       </div>
     );
   };
