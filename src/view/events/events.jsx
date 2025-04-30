@@ -75,14 +75,14 @@ export default function EventsView() {
       <div className="w-full h-max mt-3 flex flex-col gap-4">
         <div className="w-full ">
           <h1 className="playfair text-[1.3rem]">AKAD NIKAH</h1>
-          <p className="text-[.8rem] coklat">Jum`at, 3 Mei 2025 pukul 10.00</p>
+          <p className="text-[.8rem] coklat">Jum`at, 2 Mei 2025 pukul 10.00</p>
           <p className="text-[.7rem] coklat">Rumah Sindi</p>
         </div>
         <div className="w-full ">
           <h1 className="playfair text-[1.3rem] uppercase">
             Resepsi Pernikahan
           </h1>
-          <p className="text-[.8rem] coklat">Sabtu, 4 Mei 2025</p>
+          <p className="text-[.8rem] coklat">Sabtu, 3 Mei 2025</p>
           <p className="text-[.7rem] coklat">Rumah Sindi</p>
         </div>
         <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-2 mb-4">
