@@ -26,7 +26,7 @@ export default function EventsView() {
           data-aos="zoom-in"
         />
         <p
-          className="text-gray-500 text-[.8rem] mb-4"
+          className="text-white text-[.8rem] mb-4"
           data-aos="zoom-in"
           data-aos-duration="800"
         >
@@ -36,7 +36,7 @@ export default function EventsView() {
           doa restu pada kami.
         </p>
         <p
-          className=" uppercase tracking-[2px] font-bold text-[1.1rem]"
+          className=" uppercase tracking-[2px] font-bold text-[1.1rem] text-orange-100"
           data-aos="fade-down"
           data-aos-duration="800"
         >
@@ -44,7 +44,7 @@ export default function EventsView() {
         </p>
       </div>
       <p
-        className="sacramento font-medium text-[1.8rem]"
+        className="sacramento font-medium text-[1.8rem] text-orange-100"
         data-aos="fade-down"
         data-aos-duration="1000"
       >
@@ -60,10 +60,10 @@ export default function EventsView() {
           alt=""
           className=" w-full h-[250px] object-cover"
         />
-        <div className="w-full h-[180px] absolute top-[30px] flex justify-center items-center flex-col">
-          <p className="sacramento font-medium text-[2rem]">Husni</p>
-          <p className="satisfy font-medium text-[1.8rem]">&</p>
-          <p className="sacramento font-medium text-[2rem]">Indah</p>
+        <div className="w-full h-[180px] absolute top-[30px] flex justify-center items-center flex-col ">
+          <p className="sacramento font-medium text-[2rem] text-white">Husni</p>
+          <p className="satisfy font-medium text-[1.8rem] text-orange-100">&</p>
+          <p className="sacramento font-medium text-[2rem] text-white">Indah</p>
         </div>
       </div>
       {/* <div className="w-full h-max flex flex-col justify-center items-center">
@@ -78,16 +78,20 @@ export default function EventsView() {
       </div> */}
       <div className="w-full h-max mt-3 flex flex-col gap-4">
         <div className="w-full " data-aos="fade-right">
-          <h1 className="playfair text-[1.3rem]">AKAD NIKAH</h1>
-          <p className="text-[.8rem] coklat">Jum`at, 4 Juli 2025 pukul 16.00</p>
-          <p className="text-[.7rem] coklat">Rumah Indah</p>
+          <h1 className="playfair text-[1.3rem] text-white">AKAD NIKAH</h1>
+          <p className="text-[.8rem] text-orange-100 ">
+            Jum`at, 4 Juli 2025 pukul 16.00
+          </p>
+          <p className="text-[.7rem] text-orange-100">Rumah Indah</p>
         </div>
         <div className="w-full " data-aos="fade-right">
-          <h1 className="playfair text-[1.3rem] uppercase">
+          <h1 className="playfair text-[1.3rem] uppercase text-white">
             Resepsi Pernikahan
           </h1>
-          <p className="text-[.8rem] coklat">Jum`at, 4 Juli 2025 pukul 17.00</p>
-          <p className="text-[.7rem] coklat">Rumah Indah</p>
+          <p className="text-[.8rem] text-orange-100">
+            Jum`at, 4 Juli 2025 pukul 17.00
+          </p>
+          <p className="text-[.7rem] text-orange-100">Rumah Indah</p>
         </div>
         <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-2 mb-4">
           <a href="https://maps.app.goo.gl/bVdT52G3upRg3Noq7" target="_blank">

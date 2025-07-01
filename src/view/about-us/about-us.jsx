@@ -19,10 +19,12 @@ export default function AboutUsView() {
           className="w-[200px] h-[80px] object-cover"
           alt=""
         />
-        <p className="mt-4 uppercase tracking-[2px] font-bold ">about us</p>
+        <p className="mt-4 uppercase tracking-[2px] font-bold text-orange-100">
+          about us
+        </p>
       </div>
       <div
-        className="w-full h-max text-center   bg-violet-200 p-2 rounded-md "
+        className="w-full h-max text-center   bg-white p-2 rounded-md "
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
@@ -50,7 +52,7 @@ export default function AboutUsView() {
             data-aos="flip-left"
           />
           <p
-            className="capitalize sacramento text-[1.8rem]"
+            className="capitalize sacramento text-[1.8rem] text-white"
             data-aos="fade-down"
             data-aos-duration="800"
           >
@@ -62,8 +64,10 @@ export default function AboutUsView() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          <p className="text-[.8rem] text-slate-500">
-            <span className=" text-[.9rem] playfair coklat">Husni Harahap</span>{" "}
+          <p className="text-[.8rem] text-slate-100">
+            <span className=" text-[.9rem] playfair text-orange-300">
+              Husni Harahap
+            </span>{" "}
             Pria yg memiliki semangat dan wawasan luas demi membangun hidupnya
             dan berusaha menjadi sukses utk masa depan nya.
           </p>
@@ -75,7 +79,7 @@ export default function AboutUsView() {
             >
               <AiFillInstagram
                 size={25}
-                className="text-violet-500 hover:text-gray-400 duration-200"
+                className="text-violet-100 hover:text-gray-400 duration-200"
               />
             </a>
             <a
@@ -85,7 +89,7 @@ export default function AboutUsView() {
             >
               <IoLogoYoutube
                 size={25}
-                className="text-violet-500 hover:text-gray-400 duration-200"
+                className="text-violet-100 hover:text-gray-400 duration-200"
               />
             </a>
           </div> */}
@@ -101,7 +105,7 @@ export default function AboutUsView() {
             data-aos="flip-right"
           />
           <p
-            className="capitalize sacramento text-[1.8rem]"
+            className="capitalize sacramento text-[1.8rem] text-white"
             data-aos="fade-down"
             data-aos-duration="800"
           >
@@ -113,8 +117,8 @@ export default function AboutUsView() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          <p className="text-[.8rem] text-slate-500">
-            <span className=" text-[.9rem] coklat playfair">
+          <p className="text-[.8rem] text-slate-100">
+            <span className=" text-[.9rem] playfair text-orange-300">
               Indah permata hati
             </span>{" "}
             Wanita yang di dikenal ambisius,cerdas ,dan berpotensi di bidang

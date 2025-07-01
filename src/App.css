@@ -22,12 +22,14 @@ body {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: black;
 }
 
 .poppins {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: black;
 }
 
 /* latin */
@@ -35,14 +37,17 @@ body {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
+  color: black;
 }
 
 .satisfy {
   font-family: "Satisfy", cursive;
+  color: black;
 }
 
 .sacramento {
   font-family: "Sacramento", cursive;
   font-weight: 400;
   font-style: normal;
+  color: black;
 }

@@ -8,14 +8,14 @@ export default function GiftView() {
     <section className="w-full h-max" id="gift">
       <>
         <h1
-          className="text-center dancing text-[2.1rem]"
+          className="text-center dancing text-[2.1rem] text-orange-100"
           data-aos="fade-down"
           data-aos-duration="800"
         >
           Berikan Hadiah
         </h1>
         <p
-          className="text-center text-[.8rem] text-gray-500 mt-3"
+          className="text-center text-[.8rem] text-white mt-3"
           data-aos="zoom-in"
           data-aos-duration="800"
         >
@@ -26,7 +26,7 @@ export default function GiftView() {
       </>
       <div className="w-full flex justify-start items-center flex-col gap-8 mt-8 mb-10">
         <div
-          className="w-[95%] h-max border rounded-xl shadow-lg p-2"
+          className="w-[95%] h-max border rounded-xl shadow-lg p-2 bg-white"
           data-aos="flip-left"
           data-aos-duration="1200"
         >
@@ -46,7 +46,7 @@ export default function GiftView() {
           </button>
         </div>
         <div
-          className="w-[95%] h-max border rounded-xl shadow-lg p-2"
+          className="w-[95%] h-max border rounded-xl shadow-lg p-2 bg-white"
           data-aos="flip-right"
           data-aos-duration="1200"
         >

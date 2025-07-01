@@ -46,7 +46,9 @@ export default function LoveStoryView() {
           height={72}
           alt=""
         />
-        <p className="mt-4 uppercase tracking-[2px] font-bold">love story</p>
+        <p className="mt-4 uppercase tracking-[2px] font-bold text-orange-100">
+          love story
+        </p>
       </div>
       <div className="w-full h-max flex flex-col items-center ">
         <Blockquote
@@ -56,7 +58,7 @@ export default function LoveStoryView() {
           mt="xl"
           data-aos="fade-up"
         >
-          <p className="text-[.9rem] text-zinc-600 tracking-[1px]">
+          <p className="text-[.9rem] text-zinc-100 tracking-[1px]">
             Mereka bertemu dan menjalin hubungan Mengungkapkan rasa dan saling
             cinta setelah perjalanan cinta yang indah. Meraka memutuskan untuk
             mengikat janji suci dalam cinta yang tumbuh kokoh.
@@ -69,7 +71,7 @@ export default function LoveStoryView() {
           mt="xl"
           data-aos="fade-up"
         >
-          <p className="text-[.9rem] text-zinc-600 tracking-[1px]">
+          <p className="text-[.9rem] text-zinc-100 tracking-[1px]">
             Dalam kesetiaan dan cinta yang tak tergoyahkan ,mereka memutuskan
             untuk menikah,menjadikan komitmen abadi dalam ikatan suci
             pernikahan.

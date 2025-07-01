@@ -78,11 +78,11 @@ export default function FooterView() {
           className="w-[200px] h-[80px] object-cover"
           alt=""
         />
-        <p className=" uppercase tracking-[2px] mt-2 font-bold">
+        <p className=" uppercase tracking-[2px] mt-2 font-bold text-orange-100">
           thanks for everything
         </p>
       </div>
-      <div className="w-full h-max bg-[#F6F3FE] flex flex-col gap-2 p-4">
+      <div className="w-full h-max bg-[#F6F3FE] flex flex-col gap-2 p-4 rounded-md">
         <form onSubmit={handleSubmit} className="">
           <Input.Wrapper label="Nama Anda">
             <Input
