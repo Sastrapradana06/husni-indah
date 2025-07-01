@@ -95,7 +95,7 @@ export default function AboutUsView() {
       <div className="w-full h-max flex flex-col items-center gap-2">
         <div className="w-full h-max flex flex-col items-center gap-2">
           <img
-            src="/indah.jpeg"
+            src="/indah2.jpeg"
             alt=""
             className="w-[200px] h-[200px] rounded-full m-auto object-cover"
             data-aos="flip-right"
