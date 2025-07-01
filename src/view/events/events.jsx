@@ -48,7 +48,7 @@ export default function EventsView() {
         data-aos="fade-down"
         data-aos-duration="1000"
       >
-        3 . Mei . 2025
+        4 . Juli . 2025
       </p>
       <div
         className="w-full h-max text-center relative"
@@ -61,9 +61,9 @@ export default function EventsView() {
           className=" w-full h-[250px] object-cover"
         />
         <div className="w-full h-[180px] absolute top-[30px] flex justify-center items-center flex-col">
-          <p className="sacramento font-medium text-[2rem]">Midun</p>
+          <p className="sacramento font-medium text-[2rem]">Husni</p>
           <p className="satisfy font-medium text-[1.8rem]">&</p>
-          <p className="sacramento font-medium text-[2rem]">Sindi</p>
+          <p className="sacramento font-medium text-[2rem]">Indah</p>
         </div>
       </div>
       {/* <div className="w-full h-max flex flex-col justify-center items-center">
@@ -79,18 +79,18 @@ export default function EventsView() {
       <div className="w-full h-max mt-3 flex flex-col gap-4">
         <div className="w-full " data-aos="fade-right">
           <h1 className="playfair text-[1.3rem]">AKAD NIKAH</h1>
-          <p className="text-[.8rem] coklat">Jum`at, 2 Mei 2025 pukul 10.00</p>
-          <p className="text-[.7rem] coklat">Rumah Sindi</p>
+          <p className="text-[.8rem] coklat">Jum`at, 4 Juli 2025 pukul 16.00</p>
+          <p className="text-[.7rem] coklat">Rumah Indah</p>
         </div>
         <div className="w-full " data-aos="fade-right">
           <h1 className="playfair text-[1.3rem] uppercase">
             Resepsi Pernikahan
           </h1>
-          <p className="text-[.8rem] coklat">Sabtu, 3 Mei 2025</p>
-          <p className="text-[.7rem] coklat">Rumah Sindi</p>
+          <p className="text-[.8rem] coklat">Jum`at, 4 Juli 2025 pukul 17.00</p>
+          <p className="text-[.7rem] coklat">Rumah Indah</p>
         </div>
         <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-2 mb-4">
-          <a href="https://maps.app.goo.gl/Z5wfCeA7qsYhmC6E9" target="_blank">
+          <a href="https://maps.app.goo.gl/bVdT52G3upRg3Noq7" target="_blank">
             <button
               className="px-4 py-2 flex justify-center items-center gap-3 bg-gray-900 rounded-md hover:shadow-lg hover:bg-gray-800"
               data-aos="flip-left"

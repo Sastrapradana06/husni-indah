@@ -35,7 +35,7 @@ export default function HomePage() {
 
   return (
     <div
-      className="w-full lg:w-[30%] lg:m-auto h-max flex justify-center items-center poppins"
+      className="w-full lg:w-[30%] lg:m-auto h-max flex justify-center items-center poppins bg-gray-100"
       id="home"
     >
       <NavbarComponent />
@@ -47,7 +47,8 @@ export default function HomePage() {
           data-aos-duration="800"
         >
           <Carousel
-            loop
+            // loop
+            withControls={false}
             height={220}
             plugins={[autoplay.current]}
             onMouseEnter={autoplay.current.stop}
@@ -55,13 +56,13 @@ export default function HomePage() {
           >
             <Carousel.Slide>
               <img
-                onClick={() => showModalFoto("/3.jpeg")}
-                src="/3.jpeg"
+                onClick={() => showModalFoto("/img-1.jpeg")}
+                src="/img-1.jpeg"
                 alt=""
                 className="w-full h-[250px] object-cover filter cursor-pointer"
               />
             </Carousel.Slide>
-            <Carousel.Slide>
+            {/* <Carousel.Slide>
               <img
                 onClick={() => showModalFoto("/1.jpeg")}
                 src="/1.jpeg"
@@ -76,13 +77,13 @@ export default function HomePage() {
                 alt=""
                 className="w-full h-[230px] object-cover filter"
               />
-            </Carousel.Slide>
+            </Carousel.Slide> */}
           </Carousel>
         </div>
         <AboutUsView />
         <LoveStoryView />
         <EventsView />
-        <GalleryView />
+        {/* <GalleryView /> */}
         <FooterView />
         <GiftView />
       </div>

@@ -5,26 +5,28 @@ import Marquee from "react-fast-marquee";
 export default function FooterView() {
   const [listKomentar, setListKomentar] = useState([
     {
-      nama: "akbar",
-      komentar: "Insya Allah tahun depan akhirnya terwujud",
+      nama: "fikri",
+      komentar: "Alhamdulillah, akhirnya sampai juga di hari bahagia ini!",
     },
     {
-      nama: "iyok",
-      komentar: "Akhirnya sahabat awak",
+      nama: "nabila",
+      komentar: "Barakallah! Semoga pernikahannya penuh berkah dan cinta.",
     },
     {
-      nama: "dania",
-      komentar: "Selamat menempuh hidup baru.",
+      nama: "reza",
+      komentar: "Semoga menjadi keluarga sakinah, mawadah, warahmah.",
     },
     {
-      nama: "salsa",
-      komentar: "Selamat menikah! Semoga langgeng dan bahagia selamanya",
+      nama: "lisa",
+      komentar: "Senangnya lihat kalian bersatu! Selamat menempuh hidup baru.",
     },
     {
-      nama: "puput",
-      komentar: "Selamat ya.",
+      nama: "dimas",
+      komentar:
+        "Doa terbaik untuk kalian berdua. Semoga selalu bersama dalam suka dan duka.",
     },
   ]);
+
   const [isStatus, setIsStatus] = useState(false);
 
   const [data, setData] = useState({

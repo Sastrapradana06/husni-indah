@@ -31,25 +31,41 @@ export default function GiftView() {
           data-aos-duration="1200"
         >
           <div className="w-full flex flex-row-reverse">
-            <img
-              src="/logo-bri.png"
-              alt="bri"
-              className=" object-cover w-[35%]"
-            />
+            <img src="/bca.svg" alt="bri" className=" object-cover w-[35%]" />
           </div>
           <div className="px-4 mt-3">
             <img src="/chip.png" alt="chip" className=" object-cover w-[20%]" />
-            <h1>528801037313532</h1>
-            <p className="text-[.8rem] text-gray-500">Sindi septria</p>
+            <h1>5725704957</h1>
+            <p className="text-[.8rem] text-gray-500">Husni Harahap</p>
           </div>
           <button
-            onClick={() => handleCopy("528801037313532", "bri")}
+            onClick={() => handleCopy("5725704957", "bca")}
             className="float-right mt-2 mr-1 bg-gray-200 text-gray-600 text-[.8rem] mb-1 px-3 py-1 rounded-md focus:bg-gray-300"
           >
             Copy
           </button>
         </div>
         <div
+          className="w-[95%] h-max border rounded-xl shadow-lg p-2"
+          data-aos="flip-right"
+          data-aos-duration="1200"
+        >
+          <div className="w-full flex flex-row-reverse">
+            <img src="/bca.svg" alt="bri" className=" object-cover w-[35%]" />
+          </div>
+          <div className="px-4 mt-3">
+            <img src="/chip.png" alt="chip" className=" object-cover w-[20%]" />
+            <h1>8375199510</h1>
+            <p className="text-[.8rem] text-gray-500">Indah Permata hati</p>
+          </div>
+          <button
+            onClick={() => handleCopy("8375199510", "bca")}
+            className="float-right mt-2 mr-1 bg-gray-200 text-gray-600 text-[.8rem] mb-1 px-3 py-1 rounded-md focus:bg-gray-300"
+          >
+            Copy
+          </button>
+        </div>
+        {/* <div
           className="w-[95%] h-max border rounded-xl shadow-lg p-2"
           data-aos="flip-right"
           data-aos-duration="1200"
@@ -72,7 +88,7 @@ export default function GiftView() {
           >
             Copy
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -22,10 +22,10 @@ export default function MusicPlayer() {
 
   return (
     <div
-      className="w-[20%] h-[40px] lg:w-[7%] bg-[#0808082f] fixed z-30 top-[350px] left-0 lg:left-[30%] rounded-3xl flex justify-center items-center cursor-pointer"
+      className="w-[20%] h-[40px] lg:w-[7%] bg-[#0808082f] fixed z-50 top-[350px] left-0 lg:left-[30%] rounded-3xl flex justify-center items-center cursor-pointer"
       data-aos="fade-right"
     >
-      <audio ref={audioRef} src="/musicBIW.mp3" autoPlay={isPlaying} />
+      <audio ref={audioRef} src="/sound.mp3" autoPlay={isPlaying} />
       <div>
         {isPlaying ? (
           <MdMusicNote onClick={togglePlayPause} size={20} fill="teal" />

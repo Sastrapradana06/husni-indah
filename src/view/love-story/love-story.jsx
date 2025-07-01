@@ -1,5 +1,5 @@
 import { Blockquote } from "@mantine/core";
-import { IoMdHeart } from "react-icons/io";
+// import { IoMdHeart } from "react-icons/io";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { GiGlobeRing } from "react-icons/gi";
 import AOS from "aos";
@@ -26,13 +26,13 @@ export default function LoveStoryView() {
     );
   };
 
-  const Icon3 = () => {
-    return (
-      <div className="border rounded-full p-2 border-violet-600">
-        <IoMdHeart size={15} className="text-red-400" />
-      </div>
-    );
-  };
+  // const Icon3 = () => {
+  //   return (
+  //     <div className="border rounded-full p-2 border-violet-600">
+  //       <IoMdHeart size={15} className="text-red-400" />
+  //     </div>
+  //   );
+  // };
 
   return (
     <div
@@ -51,39 +51,28 @@ export default function LoveStoryView() {
       <div className="w-full h-max flex flex-col items-center ">
         <Blockquote
           color="violet"
-          cite="– 2020"
+          cite="– 2024"
           icon={<Icon1 />}
           mt="xl"
           data-aos="fade-up"
         >
           <p className="text-[.9rem] text-zinc-600 tracking-[1px]">
-            Mereka bertemu, mata bersinar, senyum mengungkapkan rasa, dan lalu
-            jatuh cinta dalam kehangatan dan kebahagiaan.
-          </p>
-        </Blockquote>
-        <Blockquote
-          color="violet"
-          cite="– 2023"
-          icon={<Icon2 />}
-          mt="xl"
-          data-aos="fade-up"
-        >
-          <p className="text-[.9rem] text-zinc-600 tracking-[1px]">
-            Setelah perjalanan cinta yang indah, mereka memutuskan untuk
-            bertunangan, mengikat janji dalam cinta yang tumbuh dan kokoh.
+            Mereka bertemu dan menjalin hubungan Mengungkapkan rasa dan saling
+            cinta setelah perjalanan cinta yang indah. Meraka memutuskan untuk
+            mengikat janji suci dalam cinta yang tumbuh kokoh.
           </p>
         </Blockquote>
         <Blockquote
           color="violet"
           cite="– 2025"
-          icon={<Icon3 />}
+          icon={<Icon2 />}
           mt="xl"
           data-aos="fade-up"
         >
           <p className="text-[.9rem] text-zinc-600 tracking-[1px]">
-            Dalam kesetiaan dan cinta yang tak tergoyahkan, mereka memutuskan
-            untuk menikah, menjadikan komitmen abadi dalam ikatan suci
-            pernikahan..
+            Dalam kesetiaan dan cinta yang tak tergoyahkan ,mereka memutuskan
+            untuk menikah,menjadikan komitmen abadi dalam ikatan suci
+            pernikahan.
           </p>
         </Blockquote>
       </div>
